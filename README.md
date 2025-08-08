@@ -76,12 +76,8 @@ Além disso, a detecção de alerta ocorre se `peak > 2800.0f`.
    ```bash
    git clone https://github.com/SEU_USUARIO/monitor-som-pressao.git
    ```
-4. Compile com CMake:
-   ```bash
-   mkdir build && cd build
-   cmake ..
-   make
-   ```
+4. Compile o código.
+
 5. Carregue o `.uf2` na Raspberry Pi Pico.
 
 ## Possíveis Melhorias
