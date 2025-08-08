@@ -18,10 +18,10 @@ Além disso, o sistema mede a pressão atmosférica no momento do alerta, combin
 ## Hardware Utilizado
 
 - Placa: Raspberry Pi Pico.
-- Display: OLED SSD1306 via I²C.
-- Sensor de Pressão: MS5637 via I²C.
+- Display: OLED SSD1306 via I2C.
+- Sensor de Pressão: MS5637 via I2C.
 - Microfone Analógico: Conectado ao ADC do Pico.
-- Resistores de pull-up para barramento I²C.
+- Resistores de pull-up para barramento I2C.
 
 ## Estrutura do Código
 
@@ -50,7 +50,7 @@ Além disso, a detecção de alerta ocorre se `peak > 2800.0f`.
 ## Fluxo de Operação
 
 1. Inicialização:
-   - Configura I²C para OLED e sensor de pressão.
+   - Configura I2C para OLED e sensor de pressão.
    - Inicializa ADC do microfone.
    - Exibe tela de boas-vindas.
    
